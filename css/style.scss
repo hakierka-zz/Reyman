@@ -25,13 +25,13 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 50%;
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   .headerWithLogo {
     border: 1px solid red;
     text-align: center;
-    height: 10rem%;
+    height: 10rem;
     h1 {
       font-family: 'boldFont', sans-serif;
       color: $whiteColor;
@@ -45,13 +45,11 @@ h1 {
       width: 15%;
     }
 
+  }
 }
 
 .vertical-center {
-  min-height: 100%;
-  min-height: 100vh;
 
   display: flex;
   align-items: center;
 }
-
